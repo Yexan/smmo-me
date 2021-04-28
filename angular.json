@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "smmo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -33,6 +33,12 @@
             "styles": [
               "src/styles.sass"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/sass",
+                "src/app"
+              ]
+            },
             "scripts": []
           },
           "configurations": {

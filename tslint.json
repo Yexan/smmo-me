@@ -70,7 +70,7 @@
     ],
     "semicolon": {
       "options": [
-        "always"
+        "never"
       ]
     },
     "space-before-function-paren": {
@@ -139,13 +139,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "smmo",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "smmo",
       "kebab-case"
     ]
   }

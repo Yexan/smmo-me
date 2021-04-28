@@ -1,0 +1,22 @@
+@import 'mixins'
+@import 'variables'
+
+.player-infos
+  +flex-row-between
+  padding: 40px
+  margin-bottom: 40px
+  background-color: $grey-light
+  border-radius: 5px
+
+.player-details
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: 0 20px
+
+.player-stats,
+.player-equipment
+  // For exmple
+  min-height: 450px
+  padding: 40px
+  background-color: $grey-light
+  border-radius: 5px
